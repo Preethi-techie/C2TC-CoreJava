@@ -13,5 +13,4 @@ public class identifierdemo {
 		String student="Aniket";
 		System.out.println("value is : "+ student);
 	}
-
 }
