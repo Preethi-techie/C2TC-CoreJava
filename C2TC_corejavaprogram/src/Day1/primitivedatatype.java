@@ -26,7 +26,7 @@ public class primitivedatatype {
 		long maxLong = 9223372036854775807L;
 		long minLong = -9223372036854775808L;
 		
-		System.out.println("Minlong range of byte is" +
+		System.out.println("Minlong range of byte " +
 				minLong+"Maxlong range of byte is "+maxLong);
 	}
 }
