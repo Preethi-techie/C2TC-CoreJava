@@ -14,13 +14,13 @@ public class primitivedatatype {
 		short shortMax = 32767;
 		short shortMin = -32768;
 		System.out.println("Minshort range of byte is" +
-				shortMin+"Maxshort range of byte is "+shortMax);
+				shortMin+"Maxshort range of byte  "+shortMax);
 		
 		//int - 4bytes
 		int maxInt = 2147483647;
 		int minInt = -2147483648;
 		System.out.println("Minint range of byte is" +
-				minInt+"Maxint range of byte is "+maxInt);
+				minInt+"Maxint range of byte  "+maxInt);
 		
 		//long - 8bytes
 		long maxLong = 9223372036854775807L;
