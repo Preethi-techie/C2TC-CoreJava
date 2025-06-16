@@ -29,7 +29,7 @@ public class Persondemo{
 		//display person details using toString() method
 		System.out.println(person);
 		
-		TaxCalculation calc = new TaxCalculation();
+		Taxcalculation calc = new Taxcalculation();
 		calc.calculateTax(person); //tax calculation
 		System.out.println("After calculating tax : ");
 		System.out.println(person);
