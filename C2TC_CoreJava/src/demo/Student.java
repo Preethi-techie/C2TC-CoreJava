@@ -1,7 +1,7 @@
 package demo;
 
 public class Student {
-   public int id;
+   private int id;
    private String name;
    private int age;
   
@@ -29,8 +29,11 @@ public void setAge(int age) {
 	this.age = age;
 }
 
+@Override
 public String toString() {
-	   return("id:" +id+ "name:" +name+ "age:" +age);
-   }
+	return "Student [id=" + id + ", name=" + name + ", age=" + age + "]";
+}
+
+
 	   
    }
