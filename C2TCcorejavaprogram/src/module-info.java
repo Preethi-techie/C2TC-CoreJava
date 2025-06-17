@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module C2TCcorejavaprogram {
-}
