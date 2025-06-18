@@ -10,8 +10,5 @@ public class Studentsdemo {
 	   
 	   Studentss s2 = new Studentss (105, "Sanvika shree");
 	   System.out.println(s2);
-	   
-	   
-	   
    }
 }
