@@ -4,13 +4,16 @@ public class Student {
    private String name;
    private static int id;
    private int reg;
-
+   private final static int x=100;
 
 public Student() {
 	   id++;
 	   reg++;
 	   System.out.println("Constructor called");
-   }
+   }  
+static {
+	System.out.println("Static block created");
+}
    
    public String getName() {
 	return name;

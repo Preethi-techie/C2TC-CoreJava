@@ -1,6 +1,9 @@
 package Day6;
 
 public class Studentdemo {
+	static {
+		   System.out.println("Before main");
+	   }
    public static void main(String[]args) {
 	   Student s = new Student();
 	   //Student.setId(100);
@@ -11,5 +14,6 @@ public class Studentdemo {
 	   
 	   Student s2 = new Student();
 	   System.out.println(s2);
+  
    }
 }
