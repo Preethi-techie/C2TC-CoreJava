@@ -7,7 +7,6 @@ public class Studentdemo {
 	   System.out.println(s);
 	   
 	   Student s1 = new Student();
-	   //Student.setId(200);
 	   System.out.println(s1);
 	   
 	   Student s2 = new Student();
