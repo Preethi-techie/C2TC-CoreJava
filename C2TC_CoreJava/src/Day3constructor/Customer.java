@@ -23,22 +23,21 @@ public class Customer {
 	}
 	
 	//Getter and Setters
-	public String getCustomerName() {
+	public String getCustomerName(){
 		return customerName;
 	}
-
+	
 	public void setCustomerName(String customerName) {
 		this.customerName = customerName;
 	}
 
 	public int getCustomerId() {
-		return customerId;
+	   return customerId;	
 	}
-
+    
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
-
 	public String getCustomerCity() {
 		return customerCity;
 	}
