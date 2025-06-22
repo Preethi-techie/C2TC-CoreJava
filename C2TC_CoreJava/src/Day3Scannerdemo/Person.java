@@ -1,4 +1,4 @@
-package Scannerdemo;
+package Day3Scannerdemo;
 
 public class Person {
 	//Data members
