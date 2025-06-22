@@ -1,4 +1,4 @@
-package Day5Multilevelinheritance;
+package Day5txtMultilevelinheritance;
 
 public class Wordpad extends Notepad {
     private boolean isBold;

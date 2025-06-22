@@ -1,4 +1,4 @@
-package Day5Multilevelinheritance;
+package Day5txtMultilevelinheritance;
 
 public class Word extends Wordpad{
     private boolean spellCheckEnabled;

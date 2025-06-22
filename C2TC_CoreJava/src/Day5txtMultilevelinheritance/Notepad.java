@@ -1,4 +1,4 @@
-package Day5Multilevelinheritance;
+package Day5txtMultilevelinheritance;
 
 public class Notepad{
     protected String content;
