@@ -1,5 +1,11 @@
 package Day5vehicleMultiinheritence;
 
-public class Class {
+public class Class{
+	public Car{
+		System.out.println("Class Car");
+	}
 
+	public void vehicleType() {
+		System.out.println("Vehicle Type: Car");
+	}
 }

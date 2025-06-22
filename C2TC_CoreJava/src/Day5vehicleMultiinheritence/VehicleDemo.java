@@ -15,8 +15,6 @@ public class VehicleDemo {
 		m1.vehicleType();
 		m1.brand();
 		m1.speed();
-		
-		
 	}
 
 }
