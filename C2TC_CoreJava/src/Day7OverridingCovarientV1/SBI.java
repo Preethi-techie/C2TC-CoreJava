@@ -1,4 +1,4 @@
-package Day7OverridingCovarient;
+package Day7OverridingCovarientV1;
 
 //subclass
 public class SBI extends RBI {
