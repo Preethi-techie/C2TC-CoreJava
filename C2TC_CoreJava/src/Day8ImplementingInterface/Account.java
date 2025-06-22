@@ -1,19 +1,62 @@
 package Day8ImplementingInterface;
 
-import Day8FunctionalInterfaces.GreetInterface;
-import Day8FunctionalInterfaces.Greetclass;
+public class Account {
+ private int accNo;
+ private String name;
+ private double balance;
+ private Bank bank;
 
-public class Account{
+ public Account(int accNo, String name, double balance, BankImpl bank2) {
+     this.accNo = accNo;
+     this.name = name;
+     this.balance = balance;
+ }
 
-	public static void main(String[] args) {
-		Greetclass g = new Greetclass();
-		System.out.println(g.greet());
+ public int getAccNo() {
+     return accNo;
+ }
 
-		//using Lambda Expression
-		GreetInterface g1 = () -> {
-			return "Good Afternoon";
-		};
+ public String getName() {
+     return name;
+ }
 
-		System.out.println(g1.greet());
-	}
+ public double getBalance() {
+     return balance;
+ }
+
+ public Bank getBank() {
+     return bank;
+ }
+
+ public void deposit(double amount) {
+     bank.deposit(this, amount);
+ }
+
+ public void withdraw(double amount) {
+     bank.withdraw(this, amount);
+ }
+
+ 
+ public void setAccNo(int accNo) {
+	this.accNo = accNo;
+}
+
+public void setName(String name) {
+	this.name = name;
+}
+
+public void setBalance(double balance) {
+	this.balance = balance;
+}
+
+public void setBank(Bank bank) {
+	this.bank = bank;
+}
+
+@Override
+ public String toString() {
+     return "Account [accNo=" + accNo + ", name=" + name + ", balance=" + balance + "]";
+ }
+
+
 }
