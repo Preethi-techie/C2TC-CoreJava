@@ -16,7 +16,6 @@ public class Exe {
 		b1.varPublic = 41;
 		b1.methodPublic();
 	}
-
 	}
 
 
